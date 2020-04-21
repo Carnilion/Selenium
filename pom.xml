@@ -25,7 +25,7 @@
         </plugins>
 
         <!--        changing a jar file name-->
-        <finalName>myapp</finalName>
+        <finalName>selenium</finalName>
 
     </build>
 
@@ -54,6 +54,19 @@
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-all</artifactId>
             <version>1.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.2</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>${slf4j.version}</version>
         </dependency>
 
     </dependencies>
